@@ -1,5 +1,9 @@
-import React from 'react';
+import React from "react";
 
-export default function PudimComBatata() {
-  return <div>Página de quiz</div>;
+export default function QuizPage() {
+  return (
+    <div>
+      <h1>Página de quiz</h1>
+    </div>
+  );
 }
