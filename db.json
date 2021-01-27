@@ -4,25 +4,27 @@
   "description": "Teste os seus conhecimentos sobre Cavaleiros do Zodiaco e veja se você conseguirá elevar o seu cosmo ao oitavo sentido!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://media.giphy.com/media/cJ4F4bymeqBO/giphy.gif",
+      "title": "Qual desses não é um Cavaleiro de Bronze conhecido?",
+      "description": "Essa é pra aquecer!",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Rusk de Bússola",
+        "Mii de Golfinho",
+        "Celeris de Cérberos",
+        "Ban de Leão Menor"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/3otPoxXHAQg8hfi1Ik/giphy.gif",
+      "title": "Após quantos anos Dohko de Libra deixou seu posto em Rozan para lutar contra Shion na saga de Hades?",
+      "description": "Faz tempo hein?",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "243 anos",
+         "261 anos",
+         "254 anos",
+         "276 anos"
       ]
     }
   ],
