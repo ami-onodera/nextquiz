@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
-import React from "react";
-import db from "../db.json";
-import Widget from "../src/components/Widget";
-import QuizLogo from "../src/components/QuizLogo";
-import QuizBackground from "../src/components/QuizBackground";
-import QuizContainer from "../src/components/QuizContainer";
-import Button from "../src/components/Button";
+import React from 'react';
+import db from '../db.json';
+import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo';
+import QuizBackground from '../src/components/QuizBackground';
+import QuizContainer from '../src/components/QuizContainer';
+import Button from '../src/components/Button';
 
 function LoadingWidget() {
   return (
@@ -17,7 +17,9 @@ function LoadingWidget() {
   );
 }
 
-function QuestionWidget({ question, questionIndex, totalQuestions, onSubmit }) {
+function QuestionWidget({
+  question, questionIndex, totalQuestions, onSubmit,
+}) {
   const questionId = `question__${questionIndex}`;
   return (
     <Widget>
@@ -29,9 +31,9 @@ function QuestionWidget({ question, questionIndex, totalQuestions, onSubmit }) {
       <img
         alt="Descrição"
         style={{
-          width: "100%",
-          height: "150px",
-          objectFit: "cover",
+          width: '100%',
+          height: '150px',
+          objectFit: 'cover',
         }}
         src={question.image}
       />
@@ -71,9 +73,9 @@ function QuestionWidget({ question, questionIndex, totalQuestions, onSubmit }) {
 }
 
 const screenStates = {
-  QUIZ: "QUIZ",
-  LOADING: "LOADING",
-  RESULT: "RESULT",
+  QUIZ: 'QUIZ',
+  LOADING: 'LOADING',
+  RESULT: 'RESULT',
 };
 export default function QuizPage() {
   const [screenState, setScreenState] = React.useState(screenStates.LOADING);
