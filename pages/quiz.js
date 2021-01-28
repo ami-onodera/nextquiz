@@ -11,11 +11,11 @@ import Button from "../src/components/Button";
 function ResultWidget({ results }) {
   return (
     <Widget>
-      <Widget.Header>Tela de Resultado:</Widget.Header>
+      <Widget.Header>Nível do Cosmos</Widget.Header>
 
       <Widget.Content>
         <p>
-          Você acertou{" "}
+          Você elevou o seu cosmo até o{" "}
           {/* {results.reduce((somatoriaAtual, resultAtual) => {
             const isAcerto = resultAtual === true;
             if (isAcerto) {
@@ -23,7 +23,7 @@ function ResultWidget({ results }) {
             }
             return somatoriaAtual;
           }, 0)} */}
-          {results.filter((x) => x).length} perguntas
+          {results.filter((x) => x).length}º sentido!
         </p>
         <ul>
           {results.map((result, index) => (
