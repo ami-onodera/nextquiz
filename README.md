@@ -1,4 +1,4 @@
-# Imersão React Next.js
+# React Next.js quiz
 
-Quiz criado usando React Next.js durante a imerão React Next.
+This quiz was created as practice with React Next.js
 
